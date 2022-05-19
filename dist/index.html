@@ -12,97 +12,115 @@
   
   <title>Frontend Mentor | Huddle landing page with alternating feature blocks</title>
 </head>
-<body>
-  <header class="">
-    <img src="./images/logo.svg" alt="huddle logo" class="">
-    <nav class="">
-      <button class="">Try It Free</button>
-    </nav>
+<body class="">
+  <div class="max-w-[112rem] mx-auto">
+    <header class="bg-[url('./images/bg-hero-desktop.svg'] bg-cover p-6">
+      <div class="flex justify-between items-center ">
+        <img src="./images/logo.svg" alt="huddle logo" class="h-6">
+        <button class="bg-white shadow-3xl px-6 py-2 rounded-3xl">Try It Free</button>
+      </div>
+
+      <section class="mt-10 lg:flex  gap-[6rem] ">
+        <div class="">
+          <h1 class="text-center lg:text-left text-2xl font-bold mt-10">Build The Community Your Fans Will Love</h1>
+          <p class="text-center lg:text-left mb-10">Huddle re-imagines the way we build communities. You have a voice, but so does your audience. Create connections with your users as you engage in genuine discussion.</p>
+          <div class="flex space-x-2 justify-center lg:justify-start">
+            <button class="items-center bg-[#FF52BF] py-4 px-12  mb-16 rounded-full ">Get Started For Free</button>
+          </div>
+          
+        </div>
+        <div class="">
+          <img src="./images/illustration-mockups.svg" alt="" class="">
+        </div>
+        
+      </section>
   </header>
 
-  <section class="">
-    <div class="">
-      <img src="./images/illustration-mockups.svg" alt="" class="">
-    </div>
-    <div class="">
-      <h1 class="">Build The Community Your Fans Will Love</h1>
-      <p>Huddle re-imagines the way we build communities. You have a voice, but so does your audience. Create connections with your users as you engage in genuine discussion.</p>
-      <button class="">Get Started For Free</button>
-    </div>
-  </section>
-
-  <section class="">
-    <div class="">
+  <section class="p-6 shadow-3xl rounded-xl mx-8 mb-[4rem] lg:flex items-center gap-[6rem] ">
+    <div class="order-2">
       <img src="./images/illustration-grow-together.svg" alt="together image" class="">
     </div>
     <div class="">
-      <h3 class="">Grow Together</h3>
-      <p class="">Generate meaningful discussions with your audience and build a strong, loyal community. Think of the insightful conversations you miss out on with a feedback form.</p>
+      <h3 class="text-center">Grow Together</h3>
+      <p class="text-center">Generate meaningful discussions with your audience and build a strong, loyal community. Think of the insightful conversations you miss out on with a feedback form.</p>
     </div>
   </section>
-  <section class="">
+
+  <section class="p-8 shadow-3xl rounded-xl mx-8 mb-[4rem] lg:flex items-center gap-[6rem] ">
     <div class="">
       <img src="./images/illustration-flowing-conversation.svg" alt="together image" class="">
     </div>
     <div class="">
-      <h3 class="">Flowing Conversations</h3>
-      <p class="">You wouldn't paginate a conversation in real life, so why do it online? Our threads have just-in-time loading for a more natural flow.</p>
+      <h3 class="text-center">Flowing Conversations</h3>
+      <p class="text-center">You wouldn't paginate a conversation in real life, so why do it online? Our threads have just-in-time loading for a more natural flow.</p>
     </div>
   </section>
-  <section class="">
-    <div class="">
+
+  <section class="p-6 shadow-3xl rounded-xl mx-8 mb-[8rem] lg:flex items-center gap-[6rem] ">
+    <div class="order-2">
       <img src="./images/illustration-your-users.svg" alt="together image" class="">
     </div>
     <div class="">
-      <h3 class="">Your Users</h3>
-      <p class="">It takes no time at all to integrate Huddle with your app's authentication solution. This means, once signed in to your app, your users can start chatting immediately.</p>
+      <h3 class="text-center">Your Users</h3>
+      <p class="text-center">It takes no time at all to integrate Huddle with your app's authentication solution. This means, once signed in to your app, your users can start chatting immediately.</p>
+    </div>
+  </section>
+
+
+  <section class="h-auto bg-white p-4 translate-y-[5rem] md:w-[25rem] w-[22rem] lg:w-[40rem] mx-auto rounded-xl shadow-3xl">
+    <div class="">
+      <h1 class="text-center text-2xl font-bold">Ready To Build Your Community?</h1>
+      <div class="flex space-x-2 justify-center mt-8">
+          <button class="items-center bg-[#FF52BF] py-4 px-12  mb-16 rounded-full text-white">Get Started For Free</button>
+      </div>
     </div>
   </section>
   
+  </div>
 
-  <section class="">
-    <h1 class="">Ready To Build Your Community?</h1>
-    <button class="">Get Started For Free</button>
-  </section>
 
-  <footer class="">
+  <footer class="bg-[#00252E] pt-[8rem] text-white pb-12">
+    
     <div class="">
       <img src="./images/logo.svg" alt="logo image" class="">
     </div>
-    <div class="">
+    <div class="lg:grid gap-16 grid-cols-4">
       <div class="">
-        <div class="">
+        <div class="flex gap-5">
           <span class=""><ion-icon name="call-outline"></ion-icon></span>
           <p class="">+1-543-123-4567</p>
         </div>
-        <div class="">
+        <div class="flex gap-5">
           <span class=""><ion-icon name="mail-outline"></ion-icon></span>
           <p class="">example@huddle.com</p>
         </div>
-        <div class="">
+        <div class="flex gap-5">
           <span class=""><ion-icon name="location-outline"></ion-icon></span>
           <p class="">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
         </div>
       </div>
       <div class="">
-        <span class="">About Us</span>
-        <span class="">What We Do</span>
-        <span class="">FAQ</span>
+        <p class="">About Us</p>
+        <p class="">What We Do</p>
+        <p class="">FAQ</p>
       </div>
       <div class="">
-        <span class="">Career</span>
-        <span class="">Blog</span>
-        <span class="">Contact Us</span>
+        <p class="">Career</p>
+        <p class="">Blog</p>
+        <p class="">Contact Us</p>
       </div>
-      <div class="">
+      <div class="text-center">
         <span class=""><ion-icon name="logo-facebook"></ion-icon></span>
         <span class=""><ion-icon name="logo-twitter"></ion-icon></span>
         <span class=""><ion-icon name="logo-instagram"></ion-icon></span>
       </div>
     </div>
-    <div class="">
+    <div class="text-center lg:flex justify-end">
       <p class="">&copy; Copyright 2018 Huddle. All rights reserved.</p>
     </div>
   </footer>
+
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </body>
 </html>
