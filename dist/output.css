@@ -518,6 +518,14 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-top: 5rem;
 }
 
+.mb-2 {
+  margin-bottom: 0.5rem;
+}
+
+.mb-3 {
+  margin-bottom: 0.75rem;
+}
+
 .flex {
   display: flex;
 }
@@ -540,6 +548,26 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .w-3\/4 {
   width: 75%;
+}
+
+.w-\[\] {
+  width: ;
+}
+
+.w-\[7\] {
+  width: 7;
+}
+
+.w-\[70\%\] {
+  width: 70%;
+}
+
+.w-\[0\%\] {
+  width: 0%;
+}
+
+.w-\[90\%\] {
+  width: 90%;
 }
 
 .max-w-\[112rem\] {
@@ -703,6 +731,16 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-right: 2rem;
 }
 
+.px-\[rem\] {
+  padding-left: rem;
+  padding-right: rem;
+}
+
+.px-\[2rem\] {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
 .pb-2 {
   padding-bottom: 0.5rem;
 }
@@ -733,6 +771,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   font-weight: 700;
 }
 
+.leading-normal {
+  line-height: 1.5;
+}
+
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
@@ -756,6 +798,14 @@ Ensure the default browser behavior of the `hidden` attribute.
 
   .md\:w-\[25rem\] {
     width: 25rem;
+  }
+
+  .md\:w-\[70\] {
+    width: 70;
+  }
+
+  .md\:w-\[70\%\] {
+    width: 70%;
   }
 }
 
@@ -800,6 +850,46 @@ Ensure the default browser behavior of the `hidden` attribute.
     width: 40rem;
   }
 
+  .lg\:w-\[40re\] {
+    width: 40re;
+  }
+
+  .lg\:w-\[40r\] {
+    width: 40r;
+  }
+
+  .lg\:w-\[40\] {
+    width: 40;
+  }
+
+  .lg\:w-\[4\] {
+    width: 4;
+  }
+
+  .lg\:w-\[\] {
+    width: ;
+  }
+
+  .lg\:w-\[7\] {
+    width: 7;
+  }
+
+  .lg\:w-\[70\] {
+    width: 70;
+  }
+
+  .lg\:w-\[70\%\] {
+    width: 70%;
+  }
+
+  .lg\:w-\[0\%\] {
+    width: 0%;
+  }
+
+  .lg\:w-\[60\%\] {
+    width: 60%;
+  }
+
   .lg\:grid-cols-4 {
     grid-template-columns: repeat(4, minmax(0, 1fr));
   }
@@ -833,12 +923,102 @@ Ensure the default browser behavior of the `hidden` attribute.
     font-size: 0.875rem;
     line-height: 1.25rem;
   }
+
+  .lg\:text-\[0\] {
+    font-size: 0;
+  }
+
+  .lg\:text-\[0\.7rem\] {
+    font-size: 0.7rem;
+  }
+
+  .lg\:text-\[0\.rem\] {
+    font-size: 0.rem;
+  }
+
+  .lg\:text-\[0\.5rem\] {
+    font-size: 0.5rem;
+  }
+
+  .lg\:text-\[0\.4rem\] {
+    font-size: 0.4rem;
+  }
 }
 
 @media (min-width: 1280px) {
   .xl\:px-\[4rem\] {
     padding-left: 4rem;
     padding-right: 4rem;
+  }
+
+  .xl\:px-0 {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .xl\:px-8 {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  .xl\:px-\[\] {
+    padding-left: ;
+    padding-right: ;
+  }
+
+  .xl\:px-\[6\] {
+    padding-left: 6;
+    padding-right: 6;
+  }
+
+  .xl\:px-\[6r\] {
+    padding-left: 6r;
+    padding-right: 6r;
+  }
+
+  .xl\:px-\[6re\] {
+    padding-left: 6re;
+    padding-right: 6re;
+  }
+
+  .xl\:px-\[6rem\] {
+    padding-left: 6rem;
+    padding-right: 6rem;
+  }
+
+  .xl\:px-\[rem\] {
+    padding-left: rem;
+    padding-right: rem;
+  }
+
+  .xl\:px-\[8rem\] {
+    padding-left: 8rem;
+    padding-right: 8rem;
+  }
+
+  .xl\:px-\[1rem\] {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .xl\:px-\[14rem\] {
+    padding-left: 14rem;
+    padding-right: 14rem;
+  }
+
+  .xl\:px-\[12rem\] {
+    padding-left: 12rem;
+    padding-right: 12rem;
+  }
+
+  .xl\:px-\[3rem\] {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+
+  .xl\:px-\[5rem\] {
+    padding-left: 5rem;
+    padding-right: 5rem;
   }
 
   .xl\:text-2xl {

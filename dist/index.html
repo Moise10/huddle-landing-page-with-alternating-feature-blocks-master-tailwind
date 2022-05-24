@@ -13,8 +13,8 @@
   <title>Frontend Mentor | Huddle landing page with alternating feature blocks</title>
 </head>
 <body class="">
-  <div class="max-w-[112rem] mx-auto xl:px-[4rem]">
-    <header class=" p-6 lg:mb-24 bg-[url('./images/bg-hero-mobile.svg')] lg:bg-[url('./images/bg-hero-desktop.svg')] bg-[#EBFBFF] bg-cover bg-no-repeat bg-center">
+  <header class=" p-6 lg:mb-24 bg-[url('./images/bg-hero-mobile.svg')] lg:bg-[url('./images/bg-hero-desktop.svg')] bg-[#EBFBFF] bg-cover bg-no-repeat bg-center ">
+    <div class="max-w-[112rem] mx-auto xl:px-[4rem]">
       <div class="flex justify-between items-center ">
         <img src="./images/logo.svg" alt="huddle logo" class="h-6">
         <button class="bg-white shadow-3xl px-6 py-2 rounded-3xl ">Try It Free</button>
@@ -34,8 +34,10 @@
         </div>
         
       </section>
-    </header>
-
+    </div>
+    
+  </header>
+  <div class="max-w-[112rem] mx-auto xl:px-[4rem]">
     <section class="p-6 shadow-3xl rounded-xl mx-8 mb-[4rem] lg:flex items-center gap-[6rem] mt-20 lg:mt-0 ">
       <div class="order-2">
         <img src="./images/illustration-grow-together.svg" alt="together image" class="">
@@ -66,7 +68,7 @@
       </div>
     </section>
 
-    <section class="h-auto bg-white p-4 translate-y-[5rem] md:w-[25rem] w-full px-8 lg:w-[40rem] md:mx-auto rounded-xl shadow-3xl">
+    <section class="h-auto bg-white p-4 translate-y-[5rem] md:w-[70%] w-[90%]  px-8 lg:w-[60%] mx-auto rounded-xl shadow-3xl">
       <div class="">
         <h1 class="text-center text-2xl font-bold ">Ready To Build Your Community?</h1>
         <div class="flex space-x-2 justify-center mt-8">
@@ -77,44 +79,44 @@
   </div>
 
 
-  <footer class="bg-[#00252E] pt-[8rem] text-white pb-12 lg:text-sm px-[4rem]">
+  <footer class="bg-[#00252E] pt-[8rem] text-white pb-12 lg:text-sm px-[4rem] ">
     
     <div class="">
       <img src="./images/logo.svg" alt="logo image" class="">
     </div>
     <div class="lg:grid lg:gap-16 lg:grid-cols-4 ">
       <div class="">
-        <div class="flex gap-5">
+        <div class="flex gap-5 opacity-50 mb-3">
           <span class=""><ion-icon name="location-outline"></ion-icon></span>
-          <p class="lg:text-sm">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+          <p class="lg:text-[0.5rem] leading-normal">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
         </div>
-        <div class="flex gap-5">
+        <div class="flex gap-5 opacity-50 mb-3">
           <span class=""><ion-icon name="call-outline"></ion-icon></span>
-          <p class="">+1-543-123-4567</p>
+          <p class="lg:text-[0.5rem]">+1-543-123-4567</p>
         </div>
-        <div class="flex gap-5">
+        <div class="flex gap-5 opacity-50">
           <span class=""><ion-icon name="mail-outline"></ion-icon></span>
-          <p class="">example@huddle.com</p>
+          <p class="lg:text-[0.5rem]">example@huddle.com</p>
         </div>
         
       </div>
-      <div class="">
-        <p class="">About Us</p>
-        <p class="">What We Do</p>
-        <p class="">FAQ</p>
+      <div class="opacity-50 lg:text-[0.5rem]">
+        <p class="mb-2">About Us</p>
+        <p class="mb-2">What We Do</p>
+        <p class="mb-2">FAQ</p>
       </div>
-      <div class="">
-        <p class="">Career</p>
-        <p class="">Blog</p>
-        <p class="">Contact Us</p>
+      <div class="opacity-50 lg:text-[0.5rem]">
+        <p class="mb-2">Career</p>
+        <p class="mb-2">Blog</p>
+        <p class="mb-2">Contact Us</p>
       </div>
-      <div class="text-center">
+      <div class="text-center opacity-50">
         <span class=""><ion-icon name="logo-facebook"></ion-icon></span>
         <span class=""><ion-icon name="logo-twitter"></ion-icon></span>
         <span class=""><ion-icon name="logo-instagram"></ion-icon></span>
       </div>
     </div>
-    <div class="text-center lg:flex justify-end">
+    <div class="text-center opacity-50 lg:flex justify-end lg:text-[0.5rem]">
       <p class="">&copy; Copyright 2018 Huddle. All rights reserved.</p>
     </div>
   </footer>
